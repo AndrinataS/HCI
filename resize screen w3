@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-weight: light;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+  font-weight: bold;
+  }
+}
+</style>
+</head>
+<body>
+<p> Perubahan tulisan menjadi bold setelah 600px.</p>
+
+</body>
+</html>
