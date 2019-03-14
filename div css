@@ -1,0 +1,57 @@
+<html>
+<head>
+    <style type="text/css">
+        #divA
+        {
+            border: 10px solid purple;
+            background-color: lightgreen;
+            color:black;
+            width: 200px;
+            height: 150px;
+            padding: 25px;
+			display: inline-table
+        }
+
+        #divB
+        {
+          	border: 10px solid purple;
+            background-color: navy;
+            color:white;
+            width: 200px;
+            height: 150px;
+            padding: 25px;
+			display: inline-table;
+        }
+           #divC
+        {
+          	border: 10px solid purple;
+            background-color: navy;
+            color:white;
+            width: 200px;
+            height: 150px;
+            padding: 25px;
+			display: inline-table;
+        }
+    </style>
+</head>
+<body>
+    <div id="Content">
+        <div id="divA">
+        
+        <p> Border adalah yang ungu, padding adalah jarak tulisan terhadap border, width adalah panjang, height adalah lebar, display:inline-table adalah agar kesamping. </p>
+        </div>
+        <div id="divB">
+        <p> Sedangkan jarak antaara div pertama dengan div kedua adalah margin yang dihasilkan sehingga margin dapat mempengaruhi jarak anatar satu elemn dengan elemen yang lainnya </p>
+        </div>
+        <div id="divC">
+        <p> Ini  adalah contoh kotak ketiga didalam suatu kotak yang menjadikan banyak table. </p>
+        </div>
+    </div>
+</body>
+<br>
+<div style="background-color: red; color: white; font-size: 16px; margin: auto; padding: 5px; text-align: center;-webkit-transform: rotate(20deg);">
+<b><i>MINDLESS</i></b> berarti tidak peduli, tidak menyadari, dan membutakan diri terhadap apa yang terjadi di sekitar kita.</div><br>
+<div style="background-color: lightgreen; font-size: 16px; margin-top: 20px; margin: auto; padding: 5px; text-align: center;-webkit-transform: rotate(-20deg);">
+Bagaimana kita bisa mulai memikirkan kembali hubungan kita dengan teknologi digital masa depan yang lebih <b><i>MINDFUL</i></b> (penuh perhatian)?</div><br>
+<div style="background-color: black; color: white; font-size: 16px; margin-top: 20px; margin: auto; padding: 5px; text-align: center; -webkit-transform: rotate(-75deg);">
+<b><i>MINDFUL</i></b> berarti kita menjadi hidup dan sadar atau sadar akan seseorang atau sesuatu di sekeliling kita.&nbsp;</div>
