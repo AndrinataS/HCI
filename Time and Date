@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> JavaScript Date </title>
+</head>
+<body id="cont">
+<script type ="text/javascript">
+var a = new Date();
+var b = new Date(3600000);
+var c = new Date("2014-12-29");
+var d = new Date (2011,10,9,20,30)
+alert(a);
+alert(b);
+alert(c);
+alert(d);
+</script>
+<body>
+</html>
