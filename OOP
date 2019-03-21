@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Java Script OOP </title>
+</head>
+<body>
+<script>
+function Karyawan(nama,umur,gaji)
+{
+this.nama = nama;
+this.umur = umur;
+this.halo = function ()
+{
+alert("Halo, Teman-teman");
+}
+}
+var budi = new Karyawan ("Budiman", 20);
+budi.halo();
+</script>
+</body>
+</html>
