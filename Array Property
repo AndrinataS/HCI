@@ -1,0 +1,17 @@
+<html>
+<head> 
+    <title> Penggunaan Array Method dan property </title>
+</head>
+<body id="cont">
+<script type="text/javascript">
+ var nama =  ["Joko dodo","Andri doremi","Kumeng komeng","Denny yolo", "Alan sudibyo","Andico"];
+ var body = document.getElementById("cont");
+ for(var i =0; i <nama.length;i++)
+ { body.innerHTML += "Nama ke-" + (i +1)+ ":" +nama[i] + "<br>";
+ }
+ body.innerHTML += "<br><br> Indeks dari Andico : "+nama.indexOf("Andiko") + "<br>";
+ body.innerHTML += "<br> Elemen terakhir yang dihapus :"+nama.pop();
+</script>
+</body>
+</html>
+
