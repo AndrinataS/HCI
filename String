@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script type="text/javascript">
+ var kata = prompt ("Masukan kata yang ingin dicek!");
+ if (kata.length < 10)
+ {
+  alert("kata terlalu pendek!");
+ } else
+ {
+    alert("Karakter indeks ke 3 adalah :" + kata.charAt(3));
+    alert("Mengganti a dengan o :" + kata.replace  ("a","o"));
+    alert("Diubah menjadi kapital : " +kata.toUpperCase());
+    alert("Diubah menjadi huruf kecil :" +kata.toLowerCase());
+ }
+</script>
+</head>
+<body>
+Penggunaan beberapa method dan property di string </body>
+</html>
