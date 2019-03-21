@@ -1,0 +1,16 @@
+<html>
+<head> 
+<script type="text/javascript">
+ var nama = prompt ["Joko","Andri","Kumeng"];
+ nama[0] = "Amang";
+ var kata = new Array("Meja","Komputer","Kursi");
+ alert(kata);
+ for (var i = 0;i < nama.length;i++)
+     alert("Nama :"+ nama[i]);
+</script>
+</head>
+<body>
+Deklarasi, inisiialisasi array dan mengakses nilai array
+</body>
+</html>
+
